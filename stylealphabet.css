@@ -1,0 +1,44 @@
+body{
+	background-color: rgb(246, 224, 238);
+}
+h1{
+	text-transform: capitalize;
+	text-align: center;
+	color: #68234E;
+	font-family: 'Cinzel', serif;
+	text-decoration: underline wavy ;
+	text-shadow: 2px 2px 2px #503847;
+
+}
+.flexy{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row-reverse;
+	
+
+}
+
+.alphabet{
+	font-family: 'El Messiri', sans-serif;
+	text-align: center;
+	color: #68234E;
+	font-size: 3rem;
+	width: 200px;
+	height: 200px;
+	padding: 60px ;
+	box-sizing: border-box;
+	background-color: rgba(169, 99, 143, 0.5 );
+	border : 2px solid rgb(134, 60, 106 );
+	margin: 5px;
+	transition: all 1s;
+
+}
+.alphabet:hover{
+	transform: scale(1.3);
+	background-color: rgb(169, 99, 143);
+	font-size: 5em;
+	padding: 37px ;
+	box-sizing: border-box;
+}
